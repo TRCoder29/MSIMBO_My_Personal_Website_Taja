@@ -8,6 +8,8 @@ import { ContactComponent } from './components/Personal/contact/contact.componen
 import { CvResumeComponent } from './components/Business/cv-resume/cv-resume.component';
 import { EducationComponent } from './components/Business/education/education.component';
 import { ProjectsComponent } from './components/Business/projects/projects.component';
+import { HomeComponent } from './components/Personal/home/home.component';
+import { BlogMainComponent } from './components/Personal/blog-main/blog-main.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { ProjectsComponent } from './components/Business/projects/projects.compo
     ContactComponent,
     CvResumeComponent,
     EducationComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    HomeComponent,
+    BlogMainComponent
   ],
   imports: [
     BrowserModule
